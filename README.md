@@ -6,7 +6,11 @@
  
  
 
-https://user-images.githubusercontent.com/85080181/134585946-d01b59a8-af76-4377-b290-a11d2dd76bf3.mp4
+
+https://user-images.githubusercontent.com/85080181/134587214-e42fc75e-d704-469b-b73e-045823d3431b.mp4
+
+
+
 
 A seperate html, css and javascript file has been created for from registration.
 
