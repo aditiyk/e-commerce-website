@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    display:flex;
+    
+    flex-direction: column;
+    margin:0;
+    background-image: url('light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+.main{
+    height: 60px;
+	width: 100%;
+    background-image: linear-gradient(to left, black,white);
+    opacity: 0.6;
+	position: fixed; /* Make it stick/fixed */
+	z-index: 12;
+}
+
+
+.site-nav-one{
+    display:  flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 8vh;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    padding: 10px;
+}
+.list{
+display: flex;
+align-items: flex-end;
+
+
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.list li a:hover{
+    color: white;
+    font-weight: bolder;
+	border: 2px solid white;
+	border-radius: 20px; 
+    -webkit-border-radius: 5px;
+	padding: 5px;
+}
+
+.container{
+    
+    margin: auto;
+    background-color:black;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 6px 7px 9px rgba(0,0,0, 0.5);
+    overflow: hidden;
+    width: calc(100vw-65vw);
+    max-width: 70%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.header{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0.4));
+    border-radius: 5px; 
+    -webkit-border-radius: 5px;
+}
+
+.header h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+form{
+    margin:auto;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px;
+}
+form .form-control{
+    background-color: black;
+   
+       border: 0px;
+}
+form .form-control label{
+width: 100%;
+color: whitesmoke;
+
+}
+.form input{
+    padding: 10px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form div i {
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .success-icon,
+  .failure-icon {
+    
+    opacity: 0;
+  }
+  
+  .failure-icon,
+  .error {
+    color: red;
+  }
+  
+  .success-icon {
+    color: green;
+  }
+  
+  .error {
+    font-size: 14.5px;
+    margin-top: 5px;
+  }
+  
+.form .btn{
+    color:black;
+     background-color: #fff;
+     border: 5px solid #cf3476;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.form .btn:hover{
+    color: whitesmoke;
+    background-color: #cf3476;
+}

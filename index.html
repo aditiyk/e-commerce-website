@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="fashion.css">
+	<title>Fashion Website</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+        <div class= "container">
+            <nav class="site-nav-one">
+                <div class="logo">
+                    <h1>logo</h1>
+                </div>
+            <ul class="list">
+                <li><a href="login.html">login</a></li>
+               
+              
+            </ul>
+            </nav>
+        </div>   
+</header>
+	<div class="our-head  pt-5 text-light shadow mb-5">
+		<div class="containerh"> <!--adding this container div helped in centering the h1 element-->
+			<h1 class="display-2">Fashion Website</h1>
+			<p class="lead">&ldquo;A girl should be two things: classy and fabulous.&rdquo; - Coco Chanel</p>
+			
+				<nav class="site-nav" >
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Sell</a></li>
+					</ul>
+				</nav>
+		</div>
+		<div class="ad">
+					<p class="ad1"><a href="#">Up to 70% off Everything</a></p>
+					<p class="ad2"><a href="#">Extra 10% off Student Discount</a></p>
+					<p class="ad3"><a href="#">New In</a></p>
+				</div>
+	</div>
+	<div class="container ml-0 mr-0">
+		<!--creating a column layout in bootstrap-->
+		<div class="row">
+			<div class="col-md-8">
+
+				<h1>Welcome to our page!</h1>
+				
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="bubble.jpg" class="d-block w-100"  >
+						</div>
+						<div class="carousel-item">
+							<img src="top.jpg" class="d-block w-100 " >
+						</div>
+						<div class="carousel-item">
+							<img src="wind.jpg" class="d-block w-100" >
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet scelerisque tellus, vel vestibulum est. Pellentesque et lobortis eros, vitae imperdiet nisi. Aliquam eleifend molestie tempor. Vivamus viverra pulvinar massa suscipit ornare. Sed vehicula imperdiet magna, eget auctor quam viverra sed. </p>
+
+				<a href="#bonus-tip" data-bs-toggle="collapse" class="btn btn-outline-warning btn-lg">Learn More</a>
+				<!--btn-lg stand for button-large-->
+				<div class="collapse mt-3" id="bonus-tip">
+					<h3>Our Personal Fashion Tips!</h3>
+					<p> 1. Make sure you have reliable wardrobe staples: an iconic little black dress, a pair of jeans that fit perfectly, a classic blazer, simple T-shirts and button-downs in neutral colors.</p>
+
+					<p>2. Make sure your clothes fit perfectly. One trick to making any item of clothing look amazing is to hire a good tailor. Tailored clothing not only looks polished, but it also feels more comfortable.</p>
+
+					<p>3. Find your personal style.</p>
+
+					<p>4. Become a better shopper. Learning how to shop for exactly what you want will help you avoid filling your closet full of items you never wear.
+					</p>
+
+					<p>It is never too late to start experimenting with fashion!</p>
+				</div>
+
+			</div>
+			
+			<div class="col-md-4 small mt-5  ">
+				<div class="side alert ">
+					Did you know? High Heels were initially worn by both men and women. Men wore it since it was easier for them to ride on horses. This style faded by 1740s.
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet scelerisque tellus, vel vestibulum est. Pellentesque et lobortis eros, vitae imperdiet nisi. Aliquam eleifend molestie tempor. </p>
+                <div class="button d-grid gap-2 d-md-flex justify-content-md-end">
+				<button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#subscribe" >Subscribe</button>
+				<div>
+				<!-- Modal -->
+				
+					<div class="modal fade" id="subscribe" tabindex="-1" aria-labelledby="pop-up" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="pop-up">This is a pop-up</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									Subscribe to our website!
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			    </div>
+		    </div>
+	    </div>
+	</div>	
+	</div>
+	<footer class="border-top mt-5 px-5 py-5">
+		<p class="small text-muted text-center">&copy; Fashion Website</p>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
