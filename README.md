@@ -1,5 +1,5 @@
 # e-commerce website
- An e-commerce website ui built with Html, CSS & Javascript
+ An e-commerce website ui built with Html, CSS, BOOTSTRAP & Javascript
  --------------------------------------------------
  
  *The inspiration behind building this website were indie fashion/ clothing brands where customers can buy and sell items*
