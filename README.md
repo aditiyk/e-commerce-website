@@ -24,7 +24,11 @@ It was also made sure that the icons are highlighted as well.
 Here is a video showing the live client-side form validation
 -----------------------------------------------------------------
 
-https://user-images.githubusercontent.com/85080181/134586571-347c545c-bc96-4ee1-a8e1-6bbf86b68fca.mp4
+
+
+https://user-images.githubusercontent.com/85080181/134666636-ae52ee82-dd96-452d-88ca-31b2bc8896e8.mp4
+
+
 
 
 
