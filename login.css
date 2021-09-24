@@ -10,13 +10,18 @@ body{
     
     flex-direction: column;
     margin:0;
-    background-image: url('light.jpg');
+    background-image: url('new.jpg');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     
 }
-
+.parent{
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+}
 .main{
     height: 60px;
 	width: 100%;
@@ -25,7 +30,9 @@ body{
 	position: fixed; /* Make it stick/fixed */
 	z-index: 12;
 }
-
+.main .logo{
+    color: black;
+}
 
 .site-nav-one{
     display:  flex;
@@ -62,58 +69,57 @@ align-items: flex-end;
 	padding: 5px;
 }
 
-.container{
-    
-    margin: auto;
-    background-color:black;
-    border-radius: 5px; 
-    -webkit-border-radius: 5px;
-    box-shadow: 0px 6px 7px 9px rgba(0,0,0, 0.5);
-    overflow: hidden;
-    width: calc(100vw-65vw);
-    max-width: 70%;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   
-}
+
 .header{
-    padding: 10px;
+
     margin-top: 20px;
     margin-bottom: 15px;
-    background-image: linear-gradient(to left, black, rgba(255, 255, 255, 0.4));
-    border-radius: 5px; 
-    -webkit-border-radius: 5px;
+   
 }
 
 .header h2{
+    padding: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: black;
+}
+.header h2:hover{
+    color: #ffae42;
+    font-weight: bolder;
+	border: 2px solid white;
+	border-radius: 20px; 
+    -webkit-border-radius: 5px;
+	
 }
 
 
 form{
-    margin:auto;
-    width: 80%;
+   margin: 0;
+    width: 50%;
     font-family: 'Montserrat', sans-serif;
     padding:10px;
 }
-form .form-control{
-    background-color: black;
+
+.primary-edit .edit{
+    background-color: rgba(255,174,66,0.1);
    
-       border: 0px;
 }
 form .form-control label{
 width: 100%;
-color: whitesmoke;
+color: black;
+font: 15px;
+    font-weight: bolder;
+
 
 }
 .form input{
     padding: 10px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    font: 15px;
+    font-weight: bolder;
+   
 }
 
 form div i {
@@ -144,7 +150,7 @@ form div i {
 .form .btn{
     color:black;
      background-color: #fff;
-     border: 5px solid #cf3476;
+     border: 5px solid #fadadd;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: black;
@@ -156,6 +162,35 @@ form div i {
 
 }
 .form .btn:hover{
-    color: whitesmoke;
-    background-color: #cf3476;
+    color: black;
+    background-color: #fadadd;
+}
+
+footer{
+    border-top: 0px;
+	background-color: #100c08;
+	width: 100%;
+
+}
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.end p{
+	word-spacing: 6px;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 20px;
+	letter-spacing: 1.6px;
+}
+.end ul{
+	list-style: none;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+}
+footer p{
+	padding: 10px;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
 }

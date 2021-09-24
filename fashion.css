@@ -41,7 +41,7 @@ header{
 
 .our-head{
 	background-color: black;
-
+     height: 400px;
 
 }
 .our-head .containerh h1{
@@ -49,7 +49,7 @@ text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 2px;
 	font-family: 'Montserrat', sans-serif;
-	padding-top:70px;
+	padding-top:100px;
 	
 }
 .our-head .containerh p{
@@ -59,7 +59,8 @@ text-transform: uppercase;
 	font-family: 'Bonheur Royale', cursive;
 }
 .our-head .ad{
-	background-color: #ffe135;
+	
+	background-color: whitesmoke;
 	display:  flex;
 	flex-direction:  row;
 	justify-content:  space-between;
@@ -71,15 +72,16 @@ text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 
 }
+
 .ad a:hover{
-	color:  #100c08;
+	color:  rgb(202,31,123);
 }
 .ad1 {order: 1; 	margin-left: 20px; }
-.ad1 a {text-decoration: none; color:  #fff; display:  block;}
+.ad1 a {text-decoration: none; color:  black; display:  block;}
 .ad2 {order: 3;	margin-left: 20px; }
-.ad2 a {text-decoration: none;color:  #fff;}
+.ad2 a {text-decoration: none;color:  black;}
 .ad3 {order:  2; 	margin-left: 20px; margin-right: 2px}
-.ad3 a {text-decoration: none;color:  #fff;}
+.ad3 a {text-decoration: none;color:  black;}
 
 /*Carousel or Slideshow*/
 .carousel-inner {
@@ -129,10 +131,10 @@ text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 .our-head .site-nav a:hover{
-	background-color: #fff;
-	border: 3px solid #f8de7e;
+	background-color: whitesmoke;
+	border: 3px solid whitesmoke;
 	transition-duration: 2s;
-	color:  #ca1f7b;
+	color:  black;
 	font-family: 'Montserrat', sans-serif;
 }
 .col-md-4{
@@ -175,4 +177,27 @@ text-transform: uppercase;
 footer{
 	background-color: #100c08;
 	width: 100%;
+
+}
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.end p{
+	word-spacing: 6px;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 20px;
+	letter-spacing: 1.6px;
+}
+.end ul{
+	list-style: none;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+}
+footer p{
+	padding: 10px;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
 }
