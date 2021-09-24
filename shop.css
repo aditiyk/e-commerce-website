@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+margin:0px;
+padding:0px;
+background-image: linear-gradient(30deg,#fadadd, white);
+
+}
+.main{
+    height: 70px;
+	width: 100%;
+    background-image: linear-gradient(to left, black,white);
+    opacity: 0.6;
+	position: fixed; /* Make it stick/fixed */
+	z-index: 12;
+    padding-top: 10px;
+    position:relative;
+}
+
+.site-nav-one{ 
+	display:  flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.logo{
+    margin-left: 40px;
+    
+}
+.list{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.list li{
+	list-style: none;
+    margin-right: 40px;
+}
+
+.list li a{
+	text-decoration: none;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: white;
+	font-weight: bolder;
+}
+.list li a:hover{
+	text-decoration: none;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #ffae42;
+	font-weight: bolder;
+	border: 2px solid white;
+	border-radius: 20px; 
+    -webkit-border-radius: 5px;
+	padding: 5px;
+
+}
+
+.featured{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 50%;
+    text-transform: uppercase;
+    color: #ffae42;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    
+}
+.container{
+  margin: 0;
+  padding: 0;
+}
+ i{
+    color: rgb(202,31,123);
+}
+
+.rating{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+   
+}
+
+h4{
+    background-image: linear-gradient(30deg,#fadadd, white);
+    border-radius: 50px; 
+    -webkit-border-radius: 50px;  
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+img{
+    max-width: 400px;
+    max-height: 400px;
+   
+}
+img:hover{
+
+    transform: scale(1.1) translateY(-30px) ;
+    transition-duration: 2s;
+}
+
+/*Footer*/
+footer{
+    bottom: 0;
+	background-color: #100c08;
+	width: 100%;
+
+}
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.end p{
+	word-spacing: 6px;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 20px;
+	letter-spacing: 1.6px;
+}
+.end ul{
+	list-style: none;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+}
+footer p{
+	padding: 10px;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+}
