@@ -5,7 +5,7 @@
  *The inspiration behind building this website were indie fashion/ clothing brands where customers can buy and sell items*
  
  
-Video displayimg the landing page ===> 
+Video displaying the landing page ===> 
 
 
 
