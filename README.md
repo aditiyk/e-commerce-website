@@ -5,10 +5,16 @@
  *The inspiration behind building this website were indie fashion/ clothing brands where customers can buy and sell items*
  
  
+Video displayimg the landing page ===> 
 
 
 
-https://user-images.githubusercontent.com/85080181/134655895-4bad9677-ec98-445f-b144-c4b44b43982e.mp4
+https://user-images.githubusercontent.com/85080181/134715835-1473d03d-0dc8-4e46-8db4-e6089432a57b.mp4
+
+
+
+
+
 
 
 
