@@ -14,8 +14,14 @@ header{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+.list{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 .list li{
 	list-style: none;
+
 }
 
 .list li a{
@@ -111,32 +117,7 @@ text-transform: uppercase;
 
 /*Site navigation*/
 
-.site-nav ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-    display: flex;
-    justify-content: center;
-}
 
-.our-head .site-nav a{
-	text-decoration: none;
-	display: block;
-	padding: 20px 40px;
-	color: #fff;
-	margin-top: 5px;
-	margin-left: 5px;
-	box-sizing:  border-box;
-	transition-duration: 2s;
-	font-family: 'Montserrat', sans-serif;
-}
-.our-head .site-nav a:hover{
-	background-color: whitesmoke;
-	border: 3px solid whitesmoke;
-	transition-duration: 2s;
-	color:  black;
-	font-family: 'Montserrat', sans-serif;
-}
 .col-md-4{
 	display:  flex;
 	flex-direction: column;
