@@ -5,22 +5,20 @@
  *The inspiration behind building this website were indie fashion/ clothing brands where customers can buy and sell items*
  
  
-Video displaying the landing page ===> 
-
-
-
-https://user-images.githubusercontent.com/85080181/134715835-1473d03d-0dc8-4e46-8db4-e6089432a57b.mp4
-
-
-
-If you click on "shop", it will land you to a featured-products page ---->
-
-![featured](https://user-images.githubusercontent.com/85080181/134735416-33570327-0832-4c7f-9571-fc74eb1220ac.PNG)
+Video displaying the website ===> 
 
 
 
 
 
+https://user-images.githubusercontent.com/85080181/135335708-09786a6b-9409-42ea-b92c-c3d169458215.mp4
+
+
+
+
+
+If you click on "shop", it will land you to a featured-products page. Here all the products have been listed. 
+If you click on "add to cart" button, you will see an increment in the number of items you have in your cart.
 
 
 
