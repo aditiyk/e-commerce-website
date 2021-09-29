@@ -13,6 +13,9 @@ https://user-images.githubusercontent.com/85080181/134715835-1473d03d-0dc8-4e46-
 
 
 
+If you click on "shop", it will land you to a featured-products page ---->
+
+![featured](https://user-images.githubusercontent.com/85080181/134735416-33570327-0832-4c7f-9571-fc74eb1220ac.PNG)
 
 
 
