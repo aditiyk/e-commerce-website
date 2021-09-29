@@ -6,9 +6,11 @@
 body{
 margin:0px;
 padding:0px;
-background-image: linear-gradient(30deg,#fadadd, white);
+background-image: linear-gradient(30deg,#fdf5e6, white);
 
 }
+
+/*-----------------------------------NAV BAR------------------------------*/
 .main{
     height: 70px;
 	width: 100%;
@@ -64,14 +66,20 @@ background-image: linear-gradient(30deg,#fadadd, white);
 }
 
 .featured{
-    margin-top: 50px;
-    margin-left: 70px;
-    width: 50%;
-    text-transform: uppercase;
+    height: 70px;
+    padding: 70px;
+
     color: #ffae42;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
-    
+    text-align: center;
+    box-sizing: border-box;
+}
+.featured h2{
+    word-spacing: 6px;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 50px;
+	letter-spacing: 1.6px;
 }
 .container{
   margin: 0;
@@ -90,11 +98,26 @@ background-image: linear-gradient(30deg,#fadadd, white);
    
 }
 
-h4{
-    background-image: linear-gradient(30deg,#fadadd, white);
+.CartAdd{
+    border: 2px solid whitesmoke;
+    background-image: linear-gradient(70deg,#fadadd, white);
     border-radius: 50px; 
     -webkit-border-radius: 50px;  
 }
+.CartAdd a{
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.CartAdd:hover{
+    background-image: linear-gradient(70deg,black, white);
+}
+.CartAdd a:hover{ color: white; }
 .row{
     display: flex;
     justify-content: space-between;
@@ -105,6 +128,8 @@ h4{
 img{
     max-width: 400px;
     max-height: 400px;
+    border-radius: 9px; 
+    -webkit-border-radius: 9px;  
    
 }
 img:hover{
@@ -113,7 +138,7 @@ img:hover{
     transition-duration: 2s;
 }
 
-/*Footer*/
+/*----------------------------------Footer-----------------------------*/
 footer{
     bottom: 0;
 	background-color: #100c08;
@@ -142,3 +167,47 @@ footer p{
 	color: whitesmoke;
 	font-family: 'Montserrat', sans-serif;
 }
+
+/*------------------------------------CART PAGE---------------------------------*/
+
+.productContainer{
+    
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+.productHeader{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.productTitle{
+width: 50%;
+display: flex;
+font-family: 'Montserrat', sans-serif;
+padding: 15px;
+box-shadow:0px 0px 5px rgba(202,31,123, 0.7);
+
+}
+.products{
+    max-width: 700px;
+    margin:0 auto;
+   
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.products price{
+    width: 30%; 
+   
+}
+.products img{
+    width: 75px;
+}
+
+.productPrice{ width: 30%;    display: flex; align-items: center; font-family: 'Montserrat', sans-serif; padding: 15px; box-shadow:0px 0px 8px rgba(202,31,123, 0.7);}
+.productTotal{width: 50%;    display: flex; align-items: center; font-family: 'Montserrat', sans-serif; padding: 15px;  box-shadow:0px 0px 8px rgba(202,31,123, 0.7);}
